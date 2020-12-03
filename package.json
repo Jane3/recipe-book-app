@@ -1,0 +1,27 @@
+{
+  "name": "recipe-book-builder",
+  "version": "1.0.0",
+  "description": "Recipe Builder Application ",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jane3/recipe-book-builder.git"
+  },
+  "author": "Jane You",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jane3/recipe-book-builder/issues"
+  },
+  "homepage": "https://github.com/Jane3/recipe-book-builder#readme",
+  "devDependencies": {
+    "parcel": "^2.0.0-nightly.464",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.29.0"
+  },
+  "dependencies": {},
+  "keywords": []
+}
