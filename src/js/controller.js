@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import * as model from './model.js';
 import recipeView from './views/recipeView.js'; 
 import icons from '../img/icons.svg';
@@ -11,10 +12,22 @@ console.log(icons);
 //Get the first element in the document with class="recipe":
 const recipeContainer = document.querySelector('.recipe');
 
+=======
+const recipeContainer = document.querySelector('.recipe');
+
+const timeout = function (s) {
+  return new Promise(function (_, reject) {
+    setTimeout(function () {
+      reject(new Error(`Request took too long! Timeout after ${s} second`));
+    }, s * 1000);
+  });
+};
+>>>>>>> 5104a71fdd4af6f830d9c09b799b7fb60f5c0dae
 
 // https://forkify-api.herokuapp.com/v2
 
 ///////////////////////////////////////
+<<<<<<< HEAD
 
 //[rv] = await expression;
 
@@ -44,3 +57,5 @@ const init = function(){
   recipeView.addHandlerRender(controlRecipes); 
 };
 init(); 
+=======
+>>>>>>> 5104a71fdd4af6f830d9c09b799b7fb60f5c0dae

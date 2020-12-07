@@ -117,6 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
+<<<<<<< HEAD
 })({"node_modules/regenerator-runtime/runtime.js":[function(require,module,exports) {
 var define;
 /**
@@ -894,6 +895,10 @@ var _config = require("./config.js");
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
 
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+=======
+})({"src/js/controller.js":[function(require,module,exports) {
+var recipeContainer = document.querySelector('.recipe');
+>>>>>>> 5104a71fdd4af6f830d9c09b799b7fb60f5c0dae
 
 var timeout = function timeout(s) {
   return new Promise(function (_, reject) {
@@ -901,6 +906,7 @@ var timeout = function timeout(s) {
       reject(new Error("Request took too long! Timeout after ".concat(s, " second")));
     }, s * 1000);
   });
+<<<<<<< HEAD
 };
 
 var getJSON = /*#__PURE__*/function () {
@@ -12940,6 +12946,11 @@ var init = function init() {
 
 init();
 },{"./model.js":"src/js/model.js","./views/recipeView.js":"src/js/views/recipeView.js","../img/icons.svg":"src/img/icons.svg","core-js/stable":"node_modules/core-js/stable/index.js","regenerator-runtime/runtime":"node_modules/regenerator-runtime/runtime.js"}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+=======
+}; // https://forkify-api.herokuapp.com/v2
+///////////////////////////////////////
+},{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+>>>>>>> 5104a71fdd4af6f830d9c09b799b7fb60f5c0dae
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -12967,7 +12978,11 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
+<<<<<<< HEAD
   var ws = new WebSocket(protocol + '://' + hostname + ':' + "62938" + '/');
+=======
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62571" + '/');
+>>>>>>> 5104a71fdd4af6f830d9c09b799b7fb60f5c0dae
 
   ws.onmessage = function (event) {
     checkedAssets = {};
