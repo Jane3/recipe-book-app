@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-{"id":"src/img/favicon.png","dependencies":[{"name":"/Users/janeyou/Desktop/recipe-book-builder/package.json","includedInParent":true,"mtime":1607356182201}],"generated":{"js":"module.exports = \"/21bafc643eba3111099931d8beecaf59.png\";"},"sourceMaps":null,"error":null,"hash":"3c2d4fcef952980c4408483bf1877f87","cacheData":{"env":{}}}
-=======
-{"id":"src/img/favicon.png","dependencies":[{"name":"/Users/janeyou/Desktop/recipe-book-builder/package.json","includedInParent":true,"mtime":1606954013687}],"generated":{"js":"module.exports = \"/21bafc643eba3111099931d8beecaf59.png\";"},"sourceMaps":null,"error":null,"hash":"3c2d4fcef952980c4408483bf1877f87","cacheData":{"env":{}}}
->>>>>>> 5104a71fdd4af6f830d9c09b799b7fb60f5c0dae
+{"id":"src/img/favicon.png","dependencies":[{"name":"/Users/janeyou/Desktop/recipe-book-builder/package.json","includedInParent":true,"mtime":1607378788682}],"generated":{"js":"module.exports = \"/21bafc643eba3111099931d8beecaf59.png\";"},"sourceMaps":null,"error":null,"hash":"3c2d4fcef952980c4408483bf1877f87","cacheData":{"env":{}}}
